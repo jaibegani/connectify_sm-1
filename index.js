@@ -61,7 +61,7 @@ cloudinary.config({
 const storage = new CloudinaryStorage({
   cloudinary,
   params: {
-    folder: "apostrophe",
+    folder: "Connectify",
     allowedFormats: ["jpeg", "png", "jpg"],
   },
 });
